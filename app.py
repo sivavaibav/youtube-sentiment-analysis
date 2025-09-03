@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Streamlit YouTube Comments Sentiment Analysis
-
+import streamlit as st
 import random
 import os
 import re
@@ -393,3 +393,8 @@ if run:
                            file_name="sentiment_report.pdf", mime="application/pdf")
 
     st.success("✅ Analysis complete!")
+
+    if __name__ == "__main__":
+        st.set_page_config(page_title="YouTube Sentiment Analyzer", layout="wide")
+        st.write("✅ App is running on Render!")
+
