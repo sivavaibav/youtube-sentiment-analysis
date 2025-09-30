@@ -92,3 +92,5 @@ Paste a YouTube video URL (or ID), choose number of comments to fetch, and click
 * 🔤 **Wordcloud missing fonts on some hosts**: Most environments work out of the box; if not, install an extra font or ensure `pillow` is installed.
 
 ---
+
+🚀 You’re ready to analyze YouTube comments! Have fun building! 🎉
